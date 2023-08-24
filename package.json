@@ -2,6 +2,7 @@
   "name": "kakaofeedback",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://beginal.github.io/kakao-feedback",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -22,11 +23,22 @@
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "react-hot-loader": "^4.13.1",
+    "tailwindcss": "^3.3.3",
+    "gh-pages": "^6.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,14 +57,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.15",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.28",
-    "postcss-cli": "^10.1.0",
-    "react-hot-loader": "^4.13.1",
-    "tailwindcss": "^3.3.3"
   },
   "options": {
     "cacheDirectory": true,
