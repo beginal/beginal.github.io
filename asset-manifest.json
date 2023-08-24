@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kakao-feedback/static/css/main.70ba5bd1.css",
+    "main.js": "/kakao-feedback/static/js/main.ffc0d17d.js",
+    "static/js/787.31d0db58.chunk.js": "/kakao-feedback/static/js/787.31d0db58.chunk.js",
+    "index.html": "/kakao-feedback/index.html",
+    "main.70ba5bd1.css.map": "/kakao-feedback/static/css/main.70ba5bd1.css.map",
+    "main.ffc0d17d.js.map": "/kakao-feedback/static/js/main.ffc0d17d.js.map",
+    "787.31d0db58.chunk.js.map": "/kakao-feedback/static/js/787.31d0db58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ba5bd1.css",
+    "static/js/main.ffc0d17d.js"
+  ]
+}
